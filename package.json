@@ -1,10 +1,11 @@
 {
   "name": "daily-reporter",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "For providing the backend part for daily reporter",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/symbol3382/daily-task-node/issues"
   },
-  "homepage": "https://github.com/symbol3382/daily-task-node#readme"
+  "homepage": "https://github.com/symbol3382/daily-task-node#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
 }

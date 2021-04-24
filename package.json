@@ -1,0 +1,19 @@
+{
+  "name": "daily-reporter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/symbol3382/daily-task-node.git"
+  },
+  "author": "gourav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/symbol3382/daily-task-node/issues"
+  },
+  "homepage": "https://github.com/symbol3382/daily-task-node#readme"
+}
